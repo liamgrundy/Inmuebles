@@ -5,6 +5,8 @@ public abstract class Inmueble {
     private int valorDeAdministracion = 150000;
     protected int estrato;
 
+    // Agregar parametros para propietarios etc...
+
     public Inmueble(int estrato) {
         this.estrato = checkEstrato(estrato);
         this.alquilerMensual = calculaAlquilerMensual();
