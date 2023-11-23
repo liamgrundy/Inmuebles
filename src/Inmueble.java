@@ -47,4 +47,6 @@ public abstract class Inmueble {
     public abstract int calculaAlquilerMensual();
 
     public abstract int getTipoDeInmueble();
+
+    // TODO: agregar metodo abstracto tostring e implementar para las subclases
 }
