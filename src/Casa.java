@@ -27,4 +27,9 @@ public class Casa extends Inmueble {
     public int getTipoDeInmueble() {
         return 2;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Apartamento con alquiler mensual...");
+    }
 }
